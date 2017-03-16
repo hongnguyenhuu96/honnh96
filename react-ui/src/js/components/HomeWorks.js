@@ -8,8 +8,10 @@ class HomeWorks extends React.Component {
       <div className="tabs is-large">
         <ul>
           <li><Link to="/homeworks" onlyActiveOnIndex activeStyle={{color:"red"}}>Intro HomeWork</Link></li>
-          <li><Link to="/homeworks/week01" activeStyle={{color:"red"}}>Week01</Link></li>
-          <li><Link to="/homeworks/week02" activeStyle={{color:"red"}}>Week02</Link></li>
+          <li><Link to="/homeworks/week01" activeStyle={{color:"red"}}>Week 1</Link></li>
+          <li><Link to="/homeworks/week02" activeStyle={{color:"red"}}>Week 2</Link></li>
+          <li><Link to="/homeworks/week03" activeStyle={{color:"red"}}>Week 3</Link></li>
+          <li><Link to="/homeworks/week04" activeStyle={{color:"red"}}>Week 4</Link></li>
         </ul>
       </div>
       {this.props.children}
