@@ -72,6 +72,46 @@ export default React.createClass({
             </div>
           </div>
         );
-      } else return(<h1>Not found!</h1>);
+      } else if(week === 'week03'){
+        return (
+          <div>
+            <div className="content is-large" style={{border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius:'50px', backgroundColor: 'whitesmoke'}}>
+              <section id="info">
+                <h2> Home work week 3</h2>
+                <p>
+                  {'Following the tutorial at this '}
+                  <a href="http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/" target="_blank">
+                    {'Link.'}
+                  </a>
+                    {' The result is this '}
+                  <a href="https://github.com/hongnguyenhuu96/nodetest1" target="_blank"> 
+                    {'repository'}
+                  </a>{' on Github.'}
+                </p>
+              </section>
+            </div>
+          </div>
+        );
+      } else if(week === 'week04'){
+        return (
+          <div>
+            <div className="content is-large" style={{border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius:'50px', backgroundColor: 'whitesmoke'}}>
+              <section id="info">
+                <h2> Home work week 4</h2>
+                <p>
+                  {'Following the tutorial at this '}
+                  <a href="http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/" target="_blank">
+                    {'Link.'}
+                  </a>
+                    {' The result is this '}
+                  <a href="https://github.com/hongnguyenhuu96/nodetest2" target="_blank"> 
+                    {'repository'}
+                  </a>{' on Github.'}
+                </p>
+              </section>
+            </div>
+          </div>
+        );
+    } else return(<h1>Not found!</h1>);
   }
 })
