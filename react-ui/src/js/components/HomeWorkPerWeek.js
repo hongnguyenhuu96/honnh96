@@ -76,12 +76,12 @@ export default React.createClass({
         return (
           <div>
             <div className="content is-large" style={{border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius:'50px', backgroundColor: 'whitesmoke'}}>
-              <section id="info">
+              <section id="week03">
                 <h2> Home work week 3</h2>
                 <p>
                   {'Following the tutorial at this '}
                   <a href="http://cwbuecheler.com/web/tutorials/2013/node-express-mongo/" target="_blank">
-                    {'Link.'}
+                    {'Step-by-step Tutorial.'}
                   </a>
                     {' The result is this '}
                   <a href="https://github.com/hongnguyenhuu96/nodetest1" target="_blank"> 
@@ -96,18 +96,27 @@ export default React.createClass({
         return (
           <div>
             <div className="content is-large" style={{border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius:'50px', backgroundColor: 'whitesmoke'}}>
-              <section id="info">
+              <section id="week04">
                 <h2> Home work week 4</h2>
                 <p>
                   {'Following the tutorial at this '}
                   <a href="http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/" target="_blank">
-                    {'Link.'}
+                    {'Restful web app Tutorial.'}
                   </a>
-                    {' The result is this '}
+                </p>
+                <p>
+                  {'The result was deploy at this '}
+                  <a href="http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/" target="_blank">
+                    {'Link.'}
+                  </a>{' I used mongolab as the database.'}
+                </p>
+                <p>
+                  {'Source code: '}
                   <a href="https://github.com/hongnguyenhuu96/nodetest2" target="_blank"> 
                     {'repository'}
                   </a>{' on Github.'}
                 </p>
+                <hr/>
               </section>
             </div>
           </div>
