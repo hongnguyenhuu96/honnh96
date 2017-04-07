@@ -106,7 +106,7 @@ export default React.createClass({
                 </p>
                 <p>
                   {'The result was deploy at this '}
-                  <a href="http://cwbuecheler.com/web/tutorials/2014/restful-web-app-node-express-mongodb/" target="_blank">
+                  <a href="http://resful14020198.herokuapp.com/" target="_blank">
                     {'Link.'}
                   </a>{' I used mongolab as the database.'}
                 </p>
