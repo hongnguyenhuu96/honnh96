@@ -105,8 +105,8 @@ export default React.createClass({
                   </a>
                 </p>
                 <p>
-                  {'The result was deploy at this '}
-                  <a href="http://resful14020198.herokuapp.com/" target="_blank">
+                  {'The result was deployed at this '}
+                  <a href="http://restful14020198.herokuapp.com/" target="_blank">
                     {'Link.'}
                   </a>{' I used mongolab as the database.'}
                 </p>
@@ -117,10 +117,72 @@ export default React.createClass({
                   </a>{' on Github.'}
                 </p>
                 <hr/>
+                {'The deployed '}
+                 <a href="http://mvc14020198.herokuapp.com/" target="_blank"> 
+                    {'result'}
+                  </a>{' of '}
+                  <a href="http://code.tutsplus.com/tutorials/build-a-complete-mvc-website-with-expressjs--net-34168" target="_blank"> 
+                    {'MVC Tutorial.'}
+                  </a>
+
               </section>
             </div>
           </div>
         );
+    } else if(week === 'week09'){
+      return (
+        <div>
+          <div className="content is-large" style={{border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius:'50px', backgroundColor: 'whitesmoke'}}>
+            <section id="week09">
+              <h2> Home work week 9</h2>
+              <p>
+                {'Following the tutorial at: '}
+                <hr/>
+                <a href="https://semaphoreci.com/community/tutorials/getting-started-with-node-js-and-mocha" target="_blank">
+                  {'Getting started with TDD with nodejs.'}
+                </a>
+                  {' The result is this '}
+                <a href="https://github.com/hongnguyenhuu96/2017techConverter" target="_blank"> 
+                  {'repository'}
+                </a>{' on Github.'}
+                <br/>
+                <a href="https://semaphoreci.com/community/tutorials/a-tdd-approach-to-building-a-todo-api-using-node-js-and-mongodb" target="_blank">
+                  {'Building a TODO Rest API with TDD approach.'}
+                </a>
+                  {' The result is this '}
+                <a href="https://github.com/hongnguyenhuu96/2017techTodoApi" target="_blank"> 
+                  {'repository'}
+                </a>{' on Github.'}
+              </p>
+            </section>
+          </div>
+        </div>
+      );
+    } else if (week === 'week10') {
+      return (
+        <div>
+          <div className="content is-large" style={{ border: '1px solid #ffdd57', padding: '1.25rem 1.5rem', borderTopRightRadius: '50px', backgroundColor: 'whitesmoke' }}>
+            <section id="week10">
+              <h2> Home work week 10</h2>
+              <p>
+                {'Following the tutorial at: '}
+                <a href="http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-1/" target="_blank">
+                  {'MVC TODO app with TDD (and React) Part 1'}
+                </a>
+                {' and: '}
+                <a href="http://www.theodo.fr/blog/2016/03/getting-started-with-react-redux-and-immutable-a-test-driven-tutorial-part-2/" target="_blank">
+                  {'MVC TODO app with TDD (and React) Part 2.'}
+                </a>
+                <br/>
+                {' Here is the '}
+                <a href="/redux.html" target="_blank">
+                  {'deployed result'}
+                </a>{' to test.'}
+              </p>
+            </section>
+          </div>
+        </div>
+      );
     } else return(<h1>Not found!</h1>);
   }
 })
